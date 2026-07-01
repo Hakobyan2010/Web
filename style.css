@@ -1,0 +1,17 @@
+.headers{
+ color:blue;
+ margin: 0px;
+ padding: 0px;
+}
+
+.headers:hover{
+    color:chartreuse
+}
+
+#first {
+    background-color:black
+}
+
+h5 {
+    background-color:brown
+}

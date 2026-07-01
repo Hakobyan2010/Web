@@ -1,0 +1,14 @@
+
+.item-container {
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+    outline: 2px dashed black;
+}
+div > div {
+    display: inline-block;
+}
+
+body > .item-container:nth-child(odd) {
+    background-color: lightblue;
+}
