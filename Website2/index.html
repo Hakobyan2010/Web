@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="item-container">
         <img src="shirt.png" width="100px">
         <div>
@@ -25,6 +26,33 @@
             <p>In Stock</p>
         </div>
     </div>
+
+    <div class="border-container">
+        <img src="shirt.png" width = "100px">
+        <div>
+           <p>One billion dollars</p>
+           <p>example shirt</p>
+           <p>never in stock</p> 
+        </div>
+
+    </div>
+
+    <div class="item-container">
+        <button onclick="deleteButton()">
+            <img src="shirt.png" width = "100px">
+        </button>
+    </div>
+
     <script src="script.js"></script>
+
+    <script>
+        function deleteButton() {
+            const box = document.getElementById("buttonBox");
+
+            if(box) {
+                box.remove();
+            }
+        }
+    </script>
 </body>
 </html>
